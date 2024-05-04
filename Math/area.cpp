@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include<cmath>
 using namespace std;
 int main(){
     //
@@ -57,11 +58,11 @@ int main(){
             cout<< "l2:";
             cin >> lengthB;
             cout<< "l= "<< lenghtA <<endl;
-            cout<< "b= "<< lenghtB <<endl;
+            cout<< "b= "<< lengthB <<endl;
             int area=(lenghtA*lengthB);
             cout<< "Area="<<area;
         }
-        
+    
         
         
     }
