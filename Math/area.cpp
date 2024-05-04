@@ -58,11 +58,11 @@ int main(){
             cout<< "l2:";
             cin >> lengthB;
             cout<< "l= "<< lenghtA <<endl;
-            cout<< "b= "<< lenghtB <<endl;
+            cout<< "b= "<< lengthB <<endl;
             int area=(lenghtA*lengthB);
             cout<< "Area="<<area;
         }
-        
+    
         
         
     }
