@@ -35,6 +35,34 @@ int main(){
             int area=pi*(radius*radius);
             cout<< "Area="<<area;
         }
+        else if (shape=="rectangle")
+        {
+            int lenght;
+            int breadth;
+            cout<< "lenght:";
+            cin>> lenght;
+            cout<< "breadth:";
+            cin >> breadth;
+            cout<< "l= "<< lenght <<endl;
+            cout<< "b= "<< breadth <<endl;
+            int area=(lenght*breadth);
+            cout<< "Area="<<area;
+        }
+        else if (shape=="square")
+        {
+            int lenghtA;
+            int lengthB;
+            cout<< "l1:";
+            cin>> lenghtA;
+            cout<< "l2:";
+            cin >> lengthB;
+            cout<< "l= "<< lenghtA <<endl;
+            cout<< "b= "<< lenghtB <<endl;
+            int area=(lenghtA*lengthB);
+            cout<< "Area="<<area;
+        }
+        
+        
         
     }
     
