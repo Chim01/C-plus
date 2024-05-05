@@ -11,4 +11,10 @@ int main(){
     float time= 24;
     float rate= 0.03;
     float simple_intrest;
+
+    //calculations
+    simple_intrest= principal* time* rate;
+
+    //Print result
+    cout<<"Simple intrest= "<< (simple_intrest);
 }
