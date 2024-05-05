@@ -23,4 +23,17 @@ int main(){
     }
     else
         cout<<"Its a wonderful day";
+
+    //calculations
+    simple_intrest= principal* time* rate;
+
+    //Print result
+    cout<<"Simple intrest= "<< (simple_intrest)<<endl;
+
+    // age
+    cout<<"Enter your age:";
+    int age;
+    cin>>age;
+    cout<<"I am "<<age<<" years";
+
 }
