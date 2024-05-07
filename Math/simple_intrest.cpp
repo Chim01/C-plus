@@ -16,5 +16,5 @@ int main(){
     simple_intrest= principal* time* rate;
 
     //Print result
-    cout<<"Simple intrest= "<< (simple_intrest);
+    cout<<"Simple intrest=₦ "<< (simple_intrest);
 }
